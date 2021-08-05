@@ -38,7 +38,7 @@
       }
     
     const roundUp = (number, currency) => {
-        const hideDecimalPlaces = false;
+        const hideDecimalPlaces = true;
         const numberFormatOptions = {
             minimumFractionDigits: hideDecimalPlaces ? 0 : 2,
             maximumFractionDigits: hideDecimalPlaces ? 0 : 2,
